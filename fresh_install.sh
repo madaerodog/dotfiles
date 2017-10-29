@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#run this script in your home folder on Ubuntu 16.04
+
 # Print out Linux distribution and kernel version
 cat /etc/*-release
 uname -a
@@ -10,6 +12,10 @@ sudo apt-get -y upgrade
 
 # Linux basic stuff
 sudo apt-get install -y chromium-browser terminator
+
+# Create basic folders
+mkdir Development
+mkdir Tools
 
 # Development Tools
 sudo apt-get install -y build-essential git nodejs npm python3-pip virtualenv
