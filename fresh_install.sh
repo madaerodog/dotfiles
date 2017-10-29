@@ -9,7 +9,7 @@ sudo apt-get update
 sudo apt-get -y upgrade
 
 # Linux basic stuff
-sudo apt-get install -y terminator
+sudo apt-get install -y chromium-browser terminator
 
 # Development Tools
 sudo apt-get install -y build-essential git nodejs npm python3-pip virtualenv
@@ -30,3 +30,10 @@ sudo apt-get install -y vlc handbrake gimp inkscape feh blender
 # i3 wm
 sudo apt-get install -y i3
 sudo npm install -g i3-style
+
+
+# gekko
+cd Development
+git clone git://github.com/askmike/gekko.git
+cd gekko
+npm install --only=production
