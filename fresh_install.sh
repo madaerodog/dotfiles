@@ -25,3 +25,8 @@ sudo n stable
 
 # Media Tools
 sudo apt-get install -y vlc handbrake gimp inkscape feh blender
+
+
+# i3 wm
+sudo apt-get install -y i3
+sudo npm install -g i3-style
