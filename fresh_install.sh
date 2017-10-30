@@ -11,7 +11,7 @@ sudo apt-get update
 sudo apt-get -y upgrade
 
 # Linux basic stuff
-sudo apt-get install -y chromium-browser terminator
+sudo apt-get install -y chromium-browser terminator gparted
 
 # Create basic folders
 mkdir Development
