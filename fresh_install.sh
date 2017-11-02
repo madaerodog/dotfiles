@@ -1,10 +1,14 @@
 #!/bin/sh
 
-#run this script in your home folder on Ubuntu 16.04
+# Run this script in your home folder on Ubuntu 16.04
 
 # Print out Linux distribution and kernel version
 cat /etc/*-release
 uname -a
+
+# Add usefull PPAs
+sudo add-apt-repository -y ppa:stebbins/handbrake-releases
+
 
 # Upgrade packages that are available to update
 sudo apt-get update
@@ -30,7 +34,7 @@ sudo n stable
 
 
 # Media Tools
-sudo apt-get install -y vlc handbrake gimp inkscape feh blender
+sudo apt-get install -y vlc handbrake-gtk gimp inkscape feh blender
 
 
 # i3 wm
