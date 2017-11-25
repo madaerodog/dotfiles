@@ -47,3 +47,6 @@ cd Development
 git clone git://github.com/askmike/gekko.git
 cd gekko
 npm install --only=production
+
+# git settings
+git config --global push.default simple
