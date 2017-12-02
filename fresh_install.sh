@@ -9,7 +9,6 @@ uname -a
 # Add usefull PPAs
 sudo add-apt-repository -y ppa:stebbins/handbrake-releases
 
-
 # Upgrade packages that are available to update
 sudo apt-get update
 sudo apt-get -y upgrade
@@ -40,6 +39,10 @@ sudo apt-get install -y vlc handbrake-gtk gimp inkscape feh blender
 # i3 wm
 sudo apt-get install -y i3
 sudo npm install -g i3-style
+
+# android tools
+sudo apt-get install android-tools-adb
+sudo usermod -aG plugdev $LOGNAME
 
 
 # gekko
