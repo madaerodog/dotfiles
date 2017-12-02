@@ -41,7 +41,8 @@ sudo apt-get install -y i3
 sudo npm install -g i3-style
 
 # android tools
-sudo apt-get install android-tools-adb
+sudo apt-get install -y android-tools-adb
+sudo apt-get install -y android-tools-fastboot
 sudo usermod -aG plugdev $LOGNAME
 
 
