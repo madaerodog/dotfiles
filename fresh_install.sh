@@ -11,7 +11,12 @@ sudo apt-get update
 sudo apt-get -y upgrade
 
 # Linux basic stuff
-sudo apt-get install -y chromium-browser terminator zsh gparted
+sudo apt-get install -y terminator zsh gparted unity-tweak-tool chromium-browser 
+
+wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -                                                                                                                                           18-04-20 - 20:11:55
+sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
+sudo apt-get update
+sudo apt-get install -y ubuntu-tweak
 
 # Create basic folders
 mkdir Development
